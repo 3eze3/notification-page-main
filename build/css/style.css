@@ -128,6 +128,13 @@ time {
   }
 }
 
+a {
+  transition: color 0.14s ease;
+}
+a:hover {
+  color: hsl(219, 14%, 63%);
+}
+
 h1,
 a {
   color: hsl(224, 21%, 14%);
@@ -141,12 +148,17 @@ a {
 
 .notification__post {
   font-family: "PlusJakartaSans ExtraBold";
+  transition: color 0.14s ease;
 }
 .notification__post-club {
   color: hsl(219, 85%, 26%);
 }
 .notification__post-publish {
   color: hsl(219, 12%, 42%);
+}
+.notification__post:hover {
+  color: hsl(224, 21%, 14%);
+  cursor: pointer;
 }
 
 .header__btn {

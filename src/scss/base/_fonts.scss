@@ -38,6 +38,13 @@ time {
 	}
 }
 
+a {
+	transition: color 0.14s ease;
+	&:hover {
+		color: v.$grayish-blue;
+	}
+}
+
 h1,
 a {
 	color: v.$very-dark-blue;
@@ -51,11 +58,17 @@ a {
 
 .notification__post {
 	font-family: v.$plusjakartasans-ebd;
+	transition: color 0.14s ease;
 	&-club {
 		color: v.$blue;
 	}
 	&-publish {
 		color: v.$dark-grayish-blue;
+	}
+
+	&:hover {
+		color: v.$very-dark-blue;
+		cursor: pointer;
 	}
 }
 
