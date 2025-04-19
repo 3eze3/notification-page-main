@@ -180,7 +180,7 @@ a,
   background-color: hsl(0, 0%, 100%);
   width: 45.8rem;
   border-radius: 1rem;
-  padding: 2rem;
+  padding: 2rem 2rem 1rem;
 }
 .main {
   display: flex;

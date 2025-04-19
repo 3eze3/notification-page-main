@@ -5,7 +5,8 @@
 	@include mx.flex($aling: flex-start, $justify: flex-start);
 	width: 45.8rem;
 	border-radius: 1rem;
-	padding: 2rem;
+	padding: 2rem 2rem 1rem;
+
 	@include mx.mobile(v.$mobile) {
 		width: 100%;
 		min-height: 100dvh;
